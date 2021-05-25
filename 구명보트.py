@@ -11,5 +11,4 @@ def solution(people, limit):
             i+=1
         j-=1
     
-    
     return answer
