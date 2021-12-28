@@ -1,4 +1,5 @@
 def solution(s):
+    
     answer = []
     s = s[2:-2]
     s = s.split("},{")
