@@ -38,6 +38,8 @@ def dfs(state, org, route, grid):
     if org[0] == nx and org[1] == ny and org[2] == d:
         answer.append(route)
         return
+
+
     
     if not visited[d][nx][ny]:
         dfs([nx, ny, d], org, route+1, grid)
