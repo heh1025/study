@@ -4,6 +4,8 @@ def solution(arr):
         return [0, 1]
     elif sum([sum(i) for i in arr]) == 0:
         return [1, 0]
+
+
     else:
         return [sum(i) for i in zip(*[solution([i[:h] for i in arr[:h]]),
                                       solution([i[h:] for i in arr[:h]]),
