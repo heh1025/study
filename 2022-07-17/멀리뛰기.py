@@ -1,4 +1,5 @@
 def solution(n):
+
     if n<3:
         return n
     d=[0]*(n+1)
